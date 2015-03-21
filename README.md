@@ -29,7 +29,9 @@
 		
 		
 4.代码
-	
+
+本项目的`index.js`中，运行需要配合`redis-server`和`redis-cli`
+
 [传送门](https://github.com/jzlxiaohei/socket-io-reids-example/blob/master/index.js)
 
 ###测试
