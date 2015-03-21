@@ -5,7 +5,7 @@
 
 1. socket.io 包括server端和client端（一般是浏览器）
 
-	server和client 建立链接后，以事件机制为核心，进行通信。对于一个已建立的链接，服务器和客户端可以认为是`对等`的。`建立链接后`，从代码上，看不出哪个是server端哪个是client端
+	server和client 建立链接后，通过事件机制，进行通信。对于一个已建立的链接，服务器和客户端可以认为是`对等`的。`建立链接后`，从代码上，看不出哪个是server端哪个是client端
 	
 		socket.emit(eventName1,data);
 		socket.on(eventName2,function(data){})
