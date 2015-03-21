@@ -1,0 +1,19 @@
+{
+  "name": "my_socket_redis",
+  "version": "0.0.0",
+  "description": "socket.io with redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "redis"
+  ],
+  "author": "zilong",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^0.12.1",
+    "socket.io": "^1.3.5"
+  }
+}
