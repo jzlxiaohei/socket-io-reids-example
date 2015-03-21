@@ -19,11 +19,11 @@
 
 		启动时：
 		node:
-			1.通过node_redis的客户端，订阅(subscribe）redis的socket.io(其他名字也可以)
-			2.通过socket.io这个module，建立和各个浏览器的链接
+			1.通过node_redis的客户端，订阅(subscribe）redis的livenews(其他名字也可以)
+			2.通过socket.io，监听各个浏览器的连接事件
 			
 		运行时：
-		reids: 通过各种方式（比如php客户端），向redis-server: publish socket.io my-message
+		reids: 通过各种方式（比如php客户端），向redis-server: publish livenews my-message
 		
 		node的redis 客户端收到订阅的内容，通过socket.io 给浏览器发送过去
 		
